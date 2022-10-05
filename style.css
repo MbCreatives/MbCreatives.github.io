@@ -59,6 +59,11 @@ p{
     flex-basis: 50%;
     min-width: 300px;
 }
+
+.font_Impact{
+    font-family: Impact, sans-serif;
+}
+
 .col-2 img{
     max-width: 100%;
     padding: 50px 0;

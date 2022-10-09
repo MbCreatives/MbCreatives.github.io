@@ -19,6 +19,34 @@ body {
   min-height: 800px;
 }
 
+.orange_color{
+  color: #ff523b;
+}
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+  width: 100% !important;
+}
+
+.col-4 .h2,
+.col-4 h2,
+.row h2,
+.row .h2 {
+  font-size: 1.5em !important;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold !important;
+}
+.row > * {
+  width: auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,7 +71,7 @@ p {
   color: #555;
 }
 
-.enquiry{
+.enquiry_form{
   text-align: center;
 }
 
